@@ -3,6 +3,20 @@
     padding:0px;
     box-sizing:border-box;
 }
+.carousel-inner {
+      text-align: center; /* center images */
+    }
+
+    .carousel-inner img {
+      max-width: 60%;   /* smaller images */
+      height: auto;     /* maintain aspect ratio */
+      margin: 0 auto;
+    }
+
+    .carousel-caption {
+      bottom: 20px; /* position caption slightly above bottom */
+      padding: 10px 20px;
+    }
 
 body{
     font-family: Arial, Helvetica, sans-serif;
